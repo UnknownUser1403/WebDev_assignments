@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:sans-serif;
 
 }
 
+
 #navbar{
-    width: 900px;
+    width: 100vw;
     height: 50px;
     border: 2px solid black;
     background-color:#021429 ;
@@ -22,7 +23,7 @@
 }
 #conf{
     display: inline-block;
-    color: rgb(93, 93, 238);
+    color: rgb(82, 132, 239);
     font-family: sans-serif;
 }
 h1{
@@ -76,11 +77,12 @@ a:hover{
     position: relative;
     top: 30px;
     color: rgb(59, 22, 207);
-    font-weight:bold ;
+    font-weight: bold;
+    font-size: 15px;
 
 }
 #confreg{
-    font-size: 45px;
+    font-size: 40px;
     position: relative;
     top: 50px;
     font-family: sans-serif;
@@ -89,12 +91,12 @@ a:hover{
 }
 
 #info{
-    font-size: 22px;
+    font-size: 20px;
     font-family: sans-serif;
     position: relative;
     top: 70px;
     color: rgb(83, 81, 81);
-    font-weight:normal ;
+    font-weight:normal;
 
 }
 #personalinfo{
@@ -103,10 +105,16 @@ a:hover{
     width: 450px;
     border:.5px solid grey;
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     text-align: left;
     position: relative;
     top: 5px;
+    transition: 0.3s;
+
+}
+#personalinfo:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 
 }
 #confpref{
@@ -115,9 +123,13 @@ a:hover{
     width: 450px;
     border:.5px solid grey;
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     text-align: left;
+    transition: 0.3s;
 
+}
+#confpref:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #accountinfo{
     display: inline-block;
@@ -125,8 +137,12 @@ a:hover{
     width: 450px;
     border:.5px solid rgb(87, 85, 85);
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     text-align: left;
+    transition: 0.3s;
+}
+#accountinfo:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #addinfo{
     display: inline-block;
@@ -134,8 +150,12 @@ a:hover{
     width: 450px;
     border:.5px solid grey;
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     text-align: left;
+    transition: 0.3s;
+}
+#addinfo:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #persinfo{
     font-family: sans-serif;

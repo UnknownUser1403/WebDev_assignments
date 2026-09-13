@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+#navbar{
+    width: 900px;
+    height: 50px;
+    border: 2px solid black;
+    background-color:#021429 ;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#tech{
+    display: inline-block;
+    color:white;
+    font-family: sans-serif;
+}
+#conf{
+    display: inline-block;
+    color: rgb(93, 93, 238);
+    font-family: sans-serif;
+}
+h1{
+    position: relative;
+    top: 6px;
+}
+nav a{
+    position: relative;
+    top:3px ;
+    left: 30px;
+    margin: 25px;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s;
+
+
+}
+a:hover{
+    color: yellowgreen;
+}
+#rn{
+    background-color: rgb(34, 68, 237);
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
+    position: relative;
+    left: 85px;
+    /* top: 1px; */
+    margin: 2px;
+    color: rgb(213, 211, 211);
+    transition: 0.2s;
+}
+#rn:hover{
+    background-color: greenyellow;
+    color: blue;
+}
+
+#formbox{
+    position: relative;
+    top: 110px;
+    margin: 0px auto;
+}
+
+#rheading{
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    position: relative;
+    top: 30px;
+    color: rgb(59, 22, 207);
+    font-weight:bold ;
+
+}
+#confreg{
+    font-size: 45px;
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+#info{
+    font-size: 22px;
+    font-family: sans-serif;
+    position: relative;
+    top: 70px;
+    color: rgb(83, 81, 81);
+    font-weight:normal ;
+
+}
+#personalinfo{
+    display: inline-block;
+    height: 550px;
+    width: 450px;
+    border:.5px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: left;
+    position: relative;
+    top: 5px;
+
+}
+#confpref{
+    display: inline-block;
+    height: 550px;
+    width: 450px;
+    border:.5px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: left;
+
+}
+#accountinfo{
+    display: inline-block;
+    height: 420px;
+    width: 450px;
+    border:.5px solid rgb(87, 85, 85);
+    border-radius: 15px;
+    margin: 10px;
+    text-align: left;
+}
+#addinfo{
+    display: inline-block;
+    height: 420px;
+    width: 450px;
+    border:.5px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: left;
+}
+#persinfo{
+    font-family: sans-serif;
+    color: rgb(90, 82, 227);
+    margin: 10px;
+    
+}
+#fname{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.star{
+    color: red;
+    font-weight: bold;
+}
+
+#namebox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+
+}
+::placeholder{
+    font-size: 20px;
+    position: relative;
+    color: rgb(192, 188, 188);
+    top: 2px;
+    left: 3px;
+    margin: 2px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+#email{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#mailbox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+
+}
+#phone{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#phonebox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+
+}
+#dob{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#dbox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+
+}
+#gender{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.rad{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+    
+
+}
+.gfont{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 8px;
+    margin: 10px;
+    position: relative;
+    bottom: 5px;
+    
+}
+#confinfo{
+    font-family: sans-serif;
+    color: rgb(90, 82, 227);
+    margin: 10px;
+    
+}
+#ttype{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.tfont{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 8px;
+    margin: 10px;
+    position: relative;
+    bottom: 5px;
+    
+}
+
+#Ticket{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#aointerests{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.boxes{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.interests{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 8px;
+    margin: 10px;
+    position: relative;
+    bottom: 8px;
+    color: grey;
+}
+#wselection{
+    font-family: sans-serif;
+    color: rgb(90, 82, 227);
+    margin: 10px;
+    
+}
+#swork{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#selectshop{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+    font-size: 20px;
+    color: grey;
+
+}
+
+#ainfo{
+    font-family: sans-serif;
+    color: rgb(90, 82, 227);
+    margin: 10px;
+    
+}
+#username{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#userbox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+
+}
+#pass{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#passbox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+    font-size: 20px;
+    
+
+}
+#cpass{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#cpassbox{
+    width: 420px;
+    margin: 10px;
+    height: 30px;
+    border:2px solid rgb(186, 181, 181);
+    border-radius: 5px;
+    font-size: 20px;
+    
+
+}
+#adinfo{
+    font-family: sans-serif;
+    color: rgb(90, 82, 227);
+    margin: 10px;
+    
+}
+#question{
+    margin: 10px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+#answer::placeholder{
+    font-size: 17px;
+    position: relative;
+    color: rgb(192, 188, 188);
+    top: 2px;
+    left: 5px;
+    margin: 5px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+#terms{
+    position: relative;
+    top: 30px;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    display: inline-block;
+}
+#conditions{
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    top: 6.25%;
+    left: 1%;
+}
+
+#tandc{
+    text-decoration: none;
+    color: blue;
+}
+
+#submit{
+    position: relative;
+    top: 50px;
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(34, 68, 237);
+    transition: 0.3s;
+}
+#submit:hover{
+    background-color: green;
+
+}

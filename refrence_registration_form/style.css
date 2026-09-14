@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     font-family:sans-serif;
-
+    
 }
-
-
 #navbar{
     width: 100vw;
     height: 50px;
@@ -15,7 +13,6 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-
 #tech{
     display: inline-block;
     color:white;
@@ -40,8 +37,6 @@ nav a{
     color: white;
     font-family: sans-serif;
     transition: 0.2s;
-
-
 }
 a:hover{
     color: yellowgreen;
@@ -64,13 +59,11 @@ a:hover{
     background-color: greenyellow;
     color: blue;
 }
-
 #formbox{
     position: relative;
     top: 110px;
     margin: 0px auto;
 }
-
 #rheading{
     letter-spacing: 5px;
     font-family: sans-serif;
@@ -79,17 +72,14 @@ a:hover{
     color: rgb(59, 22, 207);
     font-weight: bold;
     font-size: 15px;
-
 }
 #confreg{
-    font-size: 40px;
+    font-size: 50px;
     position: relative;
     top: 50px;
     font-family: sans-serif;
     font-weight: bolder;
-
 }
-
 #info{
     font-size: 20px;
     font-family: sans-serif;
@@ -97,91 +87,98 @@ a:hover{
     top: 70px;
     color: rgb(83, 81, 81);
     font-weight:normal;
-
 }
 #personalinfo{
     display: inline-block;
     height: 550px;
     width: 450px;
-    border:.5px solid grey;
+    border: 1px solid grey;
     border-radius: 15px;
     margin: 20px;
     text-align: left;
     position: relative;
     top: 5px;
     transition: 0.3s;
-
 }
 #personalinfo:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
+    border: 4px solid blue;
+    .boxheadings{
+        color: red;
+    }
 }
 #confpref{
     display: inline-block;
     height: 550px;
     width: 450px;
-    border:.5px solid grey;
+    border:1px solid grey;
     border-radius: 15px;
     margin: 20px;
     text-align: left;
     transition: 0.3s;
-
 }
 #confpref:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 4px solid blue;
+    .boxheadings{
+        color: red;
+    }
 }
 #accountinfo{
     display: inline-block;
     height: 420px;
     width: 450px;
-    border:.5px solid rgb(87, 85, 85);
+    border:1px solid rgb(87, 85, 85);
     border-radius: 15px;
     margin: 20px;
     text-align: left;
     transition: 0.3s;
 }
 #accountinfo:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 4px solid blue;
+    .boxheadings{
+        color: red;
+    }
 }
 #addinfo{
     display: inline-block;
     height: 420px;
     width: 450px;
-    border:.5px solid grey;
+    border:1px solid grey;
     border-radius: 15px;
     margin: 20px;
     text-align: left;
     transition: 0.3s;
 }
 #addinfo:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 4px solid blue;
+    .boxheadings{
+        color: red;
+    }
 }
-#persinfo{
+.boxheadings{
     font-family: sans-serif;
     color: rgb(90, 82, 227);
     margin: 10px;
-    
 }
-#fname{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
 .star{
     color: red;
     font-weight: bold;
 }
-
-#namebox{
+.entryboxes{
     width: 420px;
     margin: 10px;
     height: 30px;
     border:2px solid rgb(186, 181, 181);
     border-radius: 5px;
-
+    transition: 0.2s;
+}
+.entryboxes:hover{
+    border: 2px solid blue;
+}
+.commonheadings{
+    margin: 10px;
+    font-weight: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 ::placeholder{
     font-size: 20px;
@@ -193,62 +190,10 @@ a:hover{
     padding: 2px;
     font-family: sans-serif;
 }
-
-#email{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#mailbox{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
-    border:2px solid rgb(186, 181, 181);
-    border-radius: 5px;
-
-}
-#phone{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#phonebox{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
-    border:2px solid rgb(186, 181, 181);
-    border-radius: 5px;
-
-}
-#dob{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#dbox{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
-    border:2px solid rgb(186, 181, 181);
-    border-radius: 5px;
-
-}
-#gender{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
 .rad{
     margin: 10px;
     width: 25px;
     height: 25px;
-    
-
 }
 .gfont{
     font-family: sans-serif;
@@ -256,14 +201,7 @@ a:hover{
     font-weight: 8px;
     margin: 10px;
     position: relative;
-    bottom: 5px;
-    
-}
-#confinfo{
-    font-family: sans-serif;
-    color: rgb(90, 82, 227);
-    margin: 10px;
-    
+    bottom: 5px; 
 }
 #ttype{
     margin: 10px;
@@ -271,33 +209,20 @@ a:hover{
     font-family: sans-serif;
     font-size: 20px;
 }
-
 .tfont{
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 8px;
     margin: 10px;
     position: relative;
-    bottom: 5px;
-    
-}
-
-#Ticket{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#aointerests{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
+    bottom: 5px;   
 }
 .boxes{
     width: 25px;
     height: 25px;
     margin: 10px;
+
+    
 }
 .interests{
     font-family: sans-serif;
@@ -308,94 +233,17 @@ a:hover{
     bottom: 8px;
     color: grey;
 }
-#wselection{
-    font-family: sans-serif;
-    color: rgb(90, 82, 227);
-    margin: 10px;
-    
-}
-#swork{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
 #selectshop{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
     border:2px solid rgb(186, 181, 181);
     border-radius: 5px;
     font-size: 20px;
     color: grey;
-
-}
-
-#ainfo{
-    font-family: sans-serif;
-    color: rgb(90, 82, 227);
-    margin: 10px;
-    
-}
-#username{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#userbox{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
-    border:2px solid rgb(186, 181, 181);
-    border-radius: 5px;
-
-}
-#pass{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#passbox{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
-    border:2px solid rgb(186, 181, 181);
-    border-radius: 5px;
-    font-size: 20px;
-    
-
-}
-#cpass{
-    margin: 10px;
-    font-weight: 2px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#cpassbox{
-    width: 420px;
-    margin: 10px;
-    height: 30px;
-    border:2px solid rgb(186, 181, 181);
-    border-radius: 5px;
-    font-size: 20px;
-    
-
-}
-#adinfo{
-    font-family: sans-serif;
-    color: rgb(90, 82, 227);
-    margin: 10px;
-    
 }
 #question{
     margin: 10px;
     font-weight: lighter;
     font-family: sans-serif;
     font-size: 18px;
-    
 }
 
 #answer::placeholder{
@@ -408,7 +256,6 @@ a:hover{
     padding: 2px;
     font-family: sans-serif;
 }
-
 #terms{
     position: relative;
     top: 30px;
@@ -424,12 +271,14 @@ a:hover{
     top: 6.25%;
     left: 1%;
 }
-
 #tandc{
     text-decoration: none;
     color: blue;
+    transition: 0.2s;
 }
-
+#tandc:hover{
+    color: yellowgreen;
+}
 #submit{
     position: relative;
     top: 50px;
